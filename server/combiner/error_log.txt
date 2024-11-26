@@ -1,0 +1,157 @@
+Error: Error in extract_credits for nan: 'float' object has no attribute 'replace'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.0: invalid literal for int() with base 10: '2.0'
+
+Error: Error in extract_credits for 2.0: invalid literal for int() with base 10: '2.0'
+
+Error: Error in extract_credits for 2.0: invalid literal for int() with base 10: '2.0'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error in extract_credits for 2.5: invalid literal for int() with base 10: '2.5'
+
+Error: Error processing course
+Context: {'subj_course_id': 'Electives', 'error': 'list index out of range'}
+
+Error: Error processing course
+Context: {'subj_course_id': 'ANTH', 'error': 'list index out of range'}
+
+Error: Error processing course
+Context: {'subj_course_id': 'ANTH', 'error': 'list index out of range'}
+
+Error: Error processing course
+Context: {'subj_course_id': 'ANTH', 'error': 'list index out of range'}
+
+Error: Error processing course
+Context: {'subj_course_id': 'ANTH', 'error': 'list index out of range'}
+
+Error: Error in extract_credits for nan: 'float' object has no attribute 'replace'
+

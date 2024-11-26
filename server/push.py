@@ -15,7 +15,8 @@ import argparse
 r = redis.Redis(host='localhost', port=6379)
 r.flushall()
 parser = argparse.ArgumentParser(description='data files')
-parser.add_argument("-data", default="classes_out.json", dest="infile", help="which file to get data from")
+parser.add_argument("-data", default="courses_output.json", dest="infile",
+                    help="which file to get data from")
 
 args = parser.parse_args()
 
@@ -29,16 +30,16 @@ for classData in tqdm(data):
   count += 1
 
 # create index
-r.execute_command("FT.CREATE", "idx:classes", "ON", "JSON", "PREFIX", "1", 
-              "classes:", "SCHEMA", 
-              "$.fullTitle", "AS", "fullTitle", "TEXT", "WEIGHT", "50", 
-              "$.detailId", "AS", "detailId", "TAG", 
-              "$.description", "AS", "description", "TEXT", 
-              "$.subjectCode", "AS", "subjectCode", "TAG", 
-              "$.terms[*]", "AS", "terms", "TAG", 
-              "$.courseCode", "AS", "courseCode", "NUMERIC", "SORTABLE",
-              "$.instructor[*][*]", "AS", "instructor", "TEXT", "NOSTEM", 
-              "$.credits[0]", "AS", "creditMin", "NUMERIC", 
-              "$.credits[1]", "as", "creditMax", "NUMERIC", 
+r.execute_command("FT.CREATE", "idx:classes", "ON", "JSON", "PREFIX", "1",
+              "classes:", "SCHEMA",
+              "$.fullTitle", "AS", "fullTitle", "TEXT", "WEIGHT", "50",
+              "$.detailId", "AS", "detailId", "TAG",
+              "$.description", "AS", "description", "TEXT",
+              "$.subjectCode", "AS", "subjectCode", "TAG",
+              "$.terms[*]", "AS", "terms", "TAG",
+              "$.courseCode", "AS", "courseCode", "TEXT",
+              "$.instructor[*][*]", "AS", "instructor", "TEXT", "NOSTEM",
+              "$.credits[0]", "AS", "creditMin", "NUMERIC",
+              "$.credits[1]", "as", "creditMax", "NUMERIC",
               "$.gened[*]", "AS", "gened", "TAG",
               "$.sched[*]", "AS", "sched", "TAG")

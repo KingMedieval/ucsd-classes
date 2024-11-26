@@ -57,6 +57,7 @@ const CardDetails = ({ courseData, semData }) => {
     // console.log(JSON.stringify(courseData, null, 2)); // for debugging and you dont wanna start server
 
     // set descriptions to none if it's html
+    console.log(JSON.stringify(courseData, null, 2));
     if (courseData.description && courseData.description.startsWith("<a href=")) {
       courseData.description = "No Description Available";
     }
@@ -611,6 +612,7 @@ export async function getServerSideProps(context) {
 
   const params = new URLSearchParams({ detailId: context.params.id });
   // https://www.boilerclasses.com
+  console.log(context.params.id);
   const data = await fetch(`http://localhost:3000/api/get?${params}`);
   const course = await data.json().then((res) => {
     if (res["course"]["documents"].length > 0) {

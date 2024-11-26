@@ -29,6 +29,8 @@ export async function getCourse(detailId) {
     const res = await client.ft.search('idx:classes', `@detailId:{${detailId}}`, {
       LIMIT: { size: 1, from: 0 }
     });
+    console.log(detailId);
+    console.log(JSON.stringify(res));
     return res;
   } catch {
     return {'documents': []};

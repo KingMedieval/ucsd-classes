@@ -1,180 +1,197 @@
-export const semesters = ["Spring 2025", "Fall 2024", "Spring 2024", "Fall 2023", "Spring 2023", "Fall 2022", "Spring 2022", "Fall 2021", "Spring 2021", "Fall 2020", "Spring 2020", "Fall 2019"]
-export const subjects = ['AAE', 'AAS', 'ABE', 'AD', 'AFT', 'AGEC', 'AGR', 'AGRY', 'AMST', 'ANSC', 'ANTH', 'ARAB', 'ASAM', 'ASEC', 'ASL', 'ASM', 'ASTR', 'AT', 'BAND', 'BCHM', 'BIOL', 'BME', 'BMS', 'BTNY', 'CAND', 'CDIS', 'CE', 'CEM', 'CGT', 'CHE', 'CHM', 'CHNS', 'CLCS', 'CLPH', 'CM', 'CMPL', 'CNIT', 'COM', 'CPB', 'CS', 'CSR', 'DANC', 'EAPS', 'ECE', 'ECET', 'ECON', 'EDCI', 'EDPS', 'EDST', 'EEE', 'ENE', 'ENGL', 'ENGR', 'ENGT', 'ENTM', 'ENTR', 'EPCS', 'FLM', 'FNR', 'FR', 'FS', 'FVS', 'GER', 'GRAD', 'GREK', 'GS', 'GSLA', 'HDFS', 'HEBR', 'HIST', 'HK', 'HONR', 'HORT', 'HSCI', 'HSOP', 'HTM', 'IDE', 'IDIS', 'IE', 'IET', 'ILS', 'IMPH', 'IPPH', 'IT', 'ITAL', 'JPNS', 'JWST', 'KOR', 'LA', 'LALS', 'LATN', 'LC', 'LING', 'MA', 'MCMP', 'ME', 'MET', 'MFET', 'MGMT', 'MSE', 'MSL', 'MUS', 'NRES', 'NS', 'NUCL', 'NUPH', 'NUR', 'NUTR', 'OBHR', 'OLS', 'PES', 'PHIL', 'PHPR', 'PHRM', 'PHSC', 'PHYS', 'POL', 'PSY', 'PTGS', 'PUBH', 'REL', 'RUSS', 'SA', 'SCI', 'SCLA', 'SFS', 'SLHS', 'SOC', 'SPAN', 'STAT', 'SYS', 'TDM', 'TECH', 'THTR', 'TLI', 'VCS', 'VIP', 'VM', 'WGSS']
-export const genedsOptions = [
-  { label: "Behavioral/Social Science", value: "BSS" },
-  { label: "Civics Literacy", value: "Civics Literacy" },
-  { label: "Humanities", value: "Humanities" },
-  { label: "JEDI", value: "JEDI" },
-  { label: "Oral Communications", value: "OC" },
-  { label: "Information Literacy", value: "IL" },
-  { label: "Quantitative Reasoning", value: "QR" },
-  { label: "Science", value: "Science" },
-  { label: "Science Technology and Society", value: "STS" },
-  { label: "Written Communication", value: "WC" }
-]
+export const semesters = ["Winter 2025", "Fall 2024", "Spring 2024", "Winter 2024", "Fall 2023", "Spring 2023", "Winter 2023", "Fall 2022", "Spring 2022",  "Winter 2022", "Fall 2021", "Spring 2021", "Winter 2021", "Fall 2020", "Spring 2020", "Winter 2020", "Fall 2019"]
+export const subjects = [
+  "ANAR", "ANBI", "ANES", "ANSC", "ANTH", "AWP", "BENG", "BGGN", "BGJC", "BGSE", "BIBC", "BICD", "BIEB", "BILD", "BIMM", "BIPN", "BISP", "BMAC", "BMED", "BNFO", "CAT", "CENG", "CHEM", "CHIN", "CLAS", "CLIN", "CLRE", "CLSS", "COGS", "COMM", "CONT", "CSE", "CSS", "DERM", "DSC", "DSGN", "DSE", "ECON", "EDS", "EMED", "ENG", "ENGI", "ENVR", "ERC", "ESYS", "ETHN", "FMPH", "FPM", "GCTR", "GPEC", "GLBH", "HDP", "HDS", "HIAF", "HIEA", "HIEU", "HIGL", "HILA", "HILD", "HINE", "HISC", "HITO", "HIUS", "HLAW", "HMNR", "HUM", "ICAM", "INTL", "IRGN", "JAPN", "JUDA", "LATI", "LAWS", "LIGN", "LIHL", "LIPO", "LISP", "LTAM", "LTCH", "LTCO", "LTCS", "LTEA", "LTEN", "LTEU", "LTFR", "LTGK", "LTGM", "LTIT", "LTKO", "LTRU", "LTSP", "LTTH", "LTWL", "MAE", "MATS", "MBC", "MBCB", "MBCM", "MBCP", "MBSB", "MDE", "MGT", "MGTB", "MGTC", "MGTF", "MGTH", "MGTP", "MGTX", "MGTY", "MGTZ", "MIP", "MSED", "MUS", "NANO", "NEU", "NEUG", "NEUP", "NEUR", "OPTH", "ORTH", "PATH", "PEDS", "PHAR", "PHIL", "PHYS", "POLI", "PSYC", "PSYH", "PSYI", "PSYN", "PSYP", "PSYS", "PSYT", "PSYW", "RAD", "RELI", "REV", "RMAS", "SOMI", "SOMM", "SOMS", "SOMT", "SOMU", "SOMV", "SOMW", "SOMX", "SOMY", "SOMZ", "SOCI", "SPPS", "SURG", "SYN", "TDAC", "TDDE", "TDGE", "TDGR", "TDHD", "TDHT", "TDPR", "TDPW", "TDDR", "TMC", "TWS", "USP", "VIS", "WARR", "WCWP"
+];
+export const genedsOptions = [];
 export const semesterOptions = [
-  { label: "Spring 2025", value: "Spring 2025" },
-  { label: "Fall 2024", value: "Fall 2024" },
-  { label: "Spring 2024", value: "Spring 2024" },
-  { label: "Fall 2023", value: "Fall 2023" },
-  { label: "Spring 2023", value: "Spring 2023" },
-  { label: "Fall 2022", value: "Fall 2022" },
-  { label: "Spring 2022", value: "Spring 2022" },
-  { label: "Fall 2021", value: "Fall 2021" },
-  { label: "Spring 2021", value: "Spring 2021" },
-  { label: "Fall 2020", value: "Fall 2020" },
-  { label: "Spring 2020", value: "Spring 2020" },
-  { label: "Fall 2019", value: "Fall 2019" },
-  // {label: "Spring 2019", value: "Spring 2019"},
-  // {label: "Fall 2018", value: "Fall 2018"},
-  // {label: "Spring 2018", value: "Spring 2018"},
-  // {label: "Fall 2017", value: "Fall 2017"},
-  // {label: "Spring 2017", value: "Spring 2017"},
-  // {label: "Fall 2016", value: "Fall 2016"},
-  // {label: "Spring 2016", value: "Spring 2016"}
+  { value: "Winter 2025", label: "Winter 2025" },
+  { value: "Fall 2024", label: "Fall 2024" },
+  { value: "Spring 2024", label: "Spring 2024" },
+  { value: "Winter 2024", label: "Winter 2024" },
+  { value: "Fall 2023", label: "Fall 2023" },
+  { value: "Spring 2023", label: "Spring 2023" },
+  { value: "Winter 2023", label: "Winter 2023" },
+  { value: "Fall 2022", label: "Fall 2022" },
+  { value: "Spring 2022", label: "Spring 2022" },
+  { value: "Winter 2022", label: "Winter 2022" },
+  { value: "Fall 2021", label: "Fall 2021" },
+  { value: "Spring 2021", label: "Spring 2021" },
+  { value: "Winter 2021", label: "Winter 2021" },
+  { value: "Fall 2020", label: "Fall 2020" },
+  { value: "Spring 2020", label: "Spring 2020" },
+  { value: "Winter 2020", label: "Winter 2020" },
+  { value: "Fall 2019", label: "Fall 2019" },
 ]
-
 export const subjectOptions = [
-  { value: "AAE", label: "AAE: Aero & Astro Engineering" },
-  { value: "AAS", label: "AAS: African American Studies" },
-  { value: "ABE", label: "ABE: Agri & Biol Engineering" },
-  { value: "AD", label: "AD: Art & Design" },
-  { value: "AFT", label: "AFT: Aerospace Studies" },
-  { value: "AGEC", label: "AGEC: Agricultural Economics" },
-  { value: "AGR", label: "AGR: Agriculture" },
-  { value: "AGRY", label: "AGRY: Agronomy" },
-  { value: "AMST", label: "AMST: American Studies" },
-  { value: "ANSC", label: "ANSC: Animal Sciences" },
-  { value: "ANTH", label: "ANTH: Anthropology" },
-  { value: "ARAB", label: "ARAB: Arabic" },
-  { value: "ASAM", label: "ASAM: Asian American Studies" },
-  { value: "ASEC", label: "ASEC: Agric Sciences Educ &Comm" },
-  { value: "ASL", label: "ASL: American Sign Language" },
-  { value: "ASM", label: "ASM: Agricultural Systems Mgmt" },
-  { value: "ASTR", label: "ASTR: Astronomy" },
-  { value: "AT", label: "AT: Aviation Technology" },
-  { value: "BAND", label: "BAND: Bands" },
-  { value: "BCHM", label: "BCHM: Biochemistry" },
-  { value: "BIOL", label: "BIOL: Biological Sciences" },
-  { value: "BME", label: "BME: Biomedical Engineering" },
-  { value: "BMS", label: "BMS: Basic Medical Sciences" },
-  { value: "BTNY", label: "BTNY: Botany & Plant Pathology" },
-  { value: "CAND", label: "CAND: Candidate" },
-  { value: "CDIS", label: "CDIS: Critical Disability Std" },
-  { value: "CE", label: "CE: Civil Engineering" },
-  { value: "CEM", label: "CEM: Construction Engr & Mgmt" },
-  { value: "CGT", label: "CGT: Computer Graphics Tech" },
-  { value: "CHE", label: "CHE: Chemical Engineering" },
-  { value: "CHM", label: "CHM: Chemistry" },
-  { value: "CHNS", label: "CHNS: Chinese" },
-  { value: "CLCS", label: "CLCS: Classics" },
-  { value: "CLPH", label: "CLPH: Clinical Pharmacy" },
-  { value: "CM", label: "CM: Construction Management" },
-  { value: "CMPL", label: "CMPL: Comparative Literature" },
-  { value: "CNIT", label: "CNIT: Computer & Info Tech" },
-  { value: "COM", label: "COM: Communication" },
-  { value: "CPB", label: "CPB: Comparative Pathobiology" },
-  { value: "CS", label: "CS: Computer Sciences" },
-  { value: "CSR", label: "CSR: Consumer Science" },
-  { value: "DANC", label: "DANC: Dance" },
-  { value: "EAPS", label: "EAPS: Earth Atmos Planetary Sci" },
-  { value: "ECE", label: "ECE: Electrical & Computer Engr" },
-  { value: "ECET", label: "ECET: Electrical&Comp Engr Tech" },
-  { value: "ECON", label: "ECON: Economics" },
-  { value: "EDCI", label: "EDCI: Educ-Curric & Instruction" },
-  { value: "EDPS", label: "EDPS: Educ-Ed'l and Psy Studies" },
-  { value: "EDST", label: "EDST: Ed Leadrship&Cultrl Fnd" },
-  { value: "EEE", label: "EEE: Environ & Ecological Engr" },
-  { value: "ENE", label: "ENE: Engineering Education" },
-  { value: "ENGL", label: "ENGL: English" },
-  { value: "ENGR", label: "ENGR: Engineering" },
-  { value: "ENGT", label: "ENGT: Engineering Technology" },
-  { value: "ENTM", label: "ENTM: Entomology" },
-  { value: "ENTR", label: "ENTR: Entrepreneurship" },
-  { value: "EPCS", label: "EPCS: Engr Proj Cmity Service" },
-  { value: "FLM", label: "FLM: Film & Video" },
-  { value: "FNR", label: "FNR: Forestry&Natural Resources" },
-  { value: "FR", label: "FR: French" },
-  { value: "FS", label: "FS: Food Science" },
-  { value: "FVS", label: "FVS: Film And Video Studies" },
-  { value: "GER", label: "GER: German" },
-  { value: "GRAD", label: "GRAD: Graduate Studies" },
-  { value: "GREK", label: "GREK: Greek" },
-  { value: "GS", label: "GS: General Studies" },
-  { value: "GSLA", label: "GSLA: Global Studies Lib Arts" },
-  { value: "HDFS", label: "HDFS: Human Dev & Family Sci" },
-  { value: "HEBR", label: "HEBR: Hebrew" },
-  { value: "HIST", label: "HIST: History" },
-  { value: "HK", label: "HK: Health And Kinesiology" },
-  { value: "HONR", label: "HONR: Honors" },
-  { value: "HORT", label: "HORT: Horticulture" },
-  { value: "HSCI", label: "HSCI: Health Sciences" },
-  { value: "HSOP", label: "HSOP: Hlth Srvcs Outcomes & Polic" },
-  { value: "HTM", label: "HTM: Hospitality & Tourism Mgmt" },
-  { value: "IDE", label: "IDE: Interdisciplinary Engr" },
-  { value: "IDIS", label: "IDIS: Interdisciplinary Studies" },
-  { value: "IE", label: "IE: Industrial Engineering" },
-  { value: "IET", label: "IET: Industrial Engr Technology" },
-  { value: "ILS", label: "ILS: Information & Library Sci" },
-  { value: "IMPH", label: "IMPH: Indstrl & Molecular Pharm" },
-  { value: "IPPH", label: "IPPH: Industrial & Phys Pharm" },
-  { value: "IT", label: "IT: Industrial Technology" },
-  { value: "ITAL", label: "ITAL: Italian" },
-  { value: "JPNS", label: "JPNS: Japanese" },
-  { value: "JWST", label: "JWST: Jewish Studies" },
-  { value: "KOR", label: "KOR: Korean" },
-  { value: "LA", label: "LA: Landscape Architecture" },
-  { value: "LALS", label: "LALS: Latina Am & Latino Studies" },
-  { value: "LATN", label: "LATN: Latin" },
-  { value: "LC", label: "LC: Languages and Cultures" },
-  { value: "LING", label: "LING: Linguistics" },
-  { value: "MA", label: "MA: Mathematics" },
-  { value: "MCMP", label: "MCMP: Med Chem &Molecular Pharm" },
-  { value: "ME", label: "ME: Mechanical Engineering" },
-  { value: "MET", label: "MET: Mechanical Engr Tech" },
-  { value: "MFET", label: "MFET: Manufacturing Engr Tech" },
-  { value: "MGMT", label: "MGMT: Management" },
-  { value: "MSE", label: "MSE: Materials Engineering" },
-  { value: "MSL", label: "MSL: Military Science & Ldrshp" },
-  { value: "MUS", label: "MUS: Music History & Theory" },
-  { value: "NRES", label: "NRES: Natural Res & Environ Sci" },
-  { value: "NS", label: "NS: Naval Science" },
-  { value: "NUCL", label: "NUCL: Nuclear Engineering" },
-  { value: "NUPH", label: "NUPH: Nuclear Pharmacy" },
-  { value: "NUR", label: "NUR: Nursing" },
-  { value: "NUTR", label: "NUTR: Nutrition Science" },
-  { value: "OBHR", label: "OBHR: Orgnztnl Bhvr & Hum Resrce" },
-  { value: "OLS", label: "OLS: Organiz Ldrshp & Supervision" },
-  { value: "PES", label: "PES: Physical Education Skills" },
-  { value: "PHIL", label: "PHIL: Philosophy" },
-  { value: "PHPR", label: "PHPR: Pharmacy Practice" },
-  { value: "PHRM", label: "PHRM: Pharmacy" },
-  { value: "PHSC", label: "PHSC: Pharmaceutical Science" },
-  { value: "PHYS", label: "PHYS: Physics" },
-  { value: "POL", label: "POL: Political Science" },
-  { value: "PSY", label: "PSY: Psychological Sciences" },
-  { value: "PTGS", label: "PTGS: Portuguese" },
-  { value: "PUBH", label: "PUBH: Public Health" },
-  { value: "REL", label: "REL: Religious Studies" },
-  { value: "RUSS", label: "RUSS: Russian" },
-  { value: "SA", label: "SA: Study Abroad" },
-  { value: "SCI", label: "SCI: General Science" },
-  { value: "SCLA", label: "SCLA: Studies Coll Liberal Arts" },
-  { value: "SFS", label: "SFS: Sustainable Food & Farm Sys" },
-  { value: "SLHS", label: "SLHS: Speech Lang & Hear Science" },
-  { value: "SOC", label: "SOC: Sociology" },
-  { value: "SPAN", label: "SPAN: Spanish" },
-  { value: "STAT", label: "STAT: Statistics" },
-  { value: "SYS", label: "SYS: Purdue Sys Collaboratory" },
-  { value: "TDM", label: "TDM: The Data Mine" },
-  { value: "TECH", label: "TECH: Technology" },
-  { value: "THTR", label: "THTR: Theatre" },
-  { value: "TLI", label: "TLI: Technology Ldrshp Innovatn" },
-  { value: "VCS", label: "VCS: Veterinary Clinical Sci" },
-  { value: "VIP", label: "VIP: Vertically Integrated Proj" },
-  { value: "VM", label: "VM: Veterinary Medicine" },
-  { value: "WGSS", label: "WGSS: Women Gend & Sexuality Std" }
-]
+  { value: "ANAR", label: "Anthropology/Archaeology" },
+  { value: "ANBI", label: "Anthropology/Biological" },
+  { value: "ANES", label: "Anesthesiology" },
+  { value: "ANSC", label: "Anthropology/Sociocultural" },
+  { value: "ANTH", label: "Anthropology" },
+  { value: "AWP", label: "Analytical Writing Program" },
+  { value: "BENG", label: "Bioengineering" },
+  { value: "BGGN", label: "Biology/General" },
+  { value: "BGJC", label: "Biology/Joint Doctoral Program" },
+  { value: "BGSE", label: "Biology/Specialized Electives" },
+  { value: "BIBC", label: "Biochemistry" },
+  { value: "BICD", label: "Biology/Cell and Developmental" },
+  { value: "BIEB", label: "Biology/Ecology, Behavior, and Evolution" },
+  { value: "BILD", label: "Biology/Lectures" },
+  { value: "BIMM", label: "Biology/Molecular" },
+  { value: "BIPN", label: "Biology/Physiology and Neuroscience" },
+  { value: "BISP", label: "Biology/Special Projects" },
+  { value: "BMAC", label: "Biology/Marine Biology" },
+  { value: "BMED", label: "Biomedical Sciences" },
+  { value: "BNFO", label: "Bioinformatics" },
+  { value: "CAT", label: "Culture, Art, and Technology" },
+  { value: "CENG", label: "Chemical Engineering" },
+  { value: "CHEM", label: "Chemistry" },
+  { value: "CHIN", label: "Chinese Studies" },
+  { value: "CLAS", label: "Classical Studies" },
+  { value: "CLIN", label: "Clinical Psychology" },
+  { value: "CLRE", label: "Clinical Research" },
+  { value: "CLSS", label: "Classics" },
+  { value: "COGS", label: "Cognitive Science" },
+  { value: "COMM", label: "Communication" },
+  { value: "CONT", label: "Contemporary Issues" },
+  { value: "CSE", label: "Computer Science and Engineering" },
+  { value: "CSS", label: "Computational Social Science" },
+  { value: "DERM", label: "Dermatology" },
+  { value: "DSC", label: "Data Science" },
+  { value: "DSGN", label: "Design" },
+  { value: "DSE", label: "Data Science and Engineering" },
+  { value: "ECON", label: "Economics" },
+  { value: "EDS", label: "Education Studies" },
+  { value: "EMED", label: "Emergency Medicine" },
+  { value: "ENG", label: "Engineering" },
+  { value: "ENGI", label: "Engineering Interdisciplinary" },
+  { value: "ENVR", label: "Environmental Systems" },
+  { value: "ERC", label: "Eleanor Roosevelt College" },
+  { value: "ESYS", label: "Environmental Systems" },
+  { value: "ETHN", label: "Ethnic Studies" },
+  { value: "FMPH", label: "Family Medicine and Public Health" },
+  { value: "FPM", label: "Family and Preventive Medicine" },
+  { value: "GCTR", label: "Global Concentration" },
+  { value: "GPEC", label: "Global Policy and Strategy" },
+  { value: "GLBH", label: "Global Health" },
+  { value: "HDP", label: "Human Development Program" },
+  { value: "HDS", label: "Human Developmental Sciences" },
+  { value: "HIAF", label: "History/Africa" },
+  { value: "HIEA", label: "History/East Asia" },
+  { value: "HIEU", label: "History/Europe" },
+  { value: "HIGL", label: "History/Global" },
+  { value: "HILA", label: "History/Latin America" },
+  { value: "HILD", label: "History/Lower Division" },
+  { value: "HINE", label: "History/Near East" },
+  { value: "HISC", label: "History/Science" },
+  { value: "HITO", label: "History/Topics" },
+  { value: "HIUS", label: "History/United States" },
+  { value: "HLAW", label: "Health Law" },
+  { value: "HMNR", label: "Humanities" },
+  { value: "HUM", label: "Humanities" },
+  { value: "ICAM", label: "Interdisciplinary Computing and the Arts" },
+  { value: "INTL", label: "International Studies" },
+  { value: "IRGN", label: "International Relations and Pacific Studies" },
+  { value: "JAPN", label: "Japanese Studies" },
+  { value: "JUDA", label: "Judaic Studies" },
+  { value: "LATI", label: "Latin American Studies" },
+  { value: "LAWS", label: "Law and Society" },
+  { value: "LIGN", label: "Linguistics" },
+  { value: "LIHL", label: "Linguistics/Heritage Language" },
+  { value: "LIPO", label: "Linguistics/Phonetics" },
+  { value: "LISP", label: "Linguistics/Spanish" },
+  { value: "LTAM", label: "Literature/Latin America" },
+  { value: "LTCH", label: "Literature/Chinese" },
+  { value: "LTCO", label: "Literature/Comparative" },
+  { value: "LTCS", label: "Literature/Cultural Studies" },
+  { value: "LTEA", label: "Literature/East Asian" },
+  { value: "LTEN", label: "Literature/English" },
+  { value: "LTEU", label: "Literature/European" },
+  { value: "LTFR", label: "Literature/French" },
+  { value: "LTGK", label: "Literature/Greek" },
+  { value: "LTGM", label: "Literature/German" },
+  { value: "LTIT", label: "Literature/Italian" },
+  { value: "LTKO", label: "Literature/Korean" },
+  { value: "LTRU", label: "Literature/Russian" },
+  { value: "LTSP", label: "Literature/Spanish" },
+  { value: "LTTH", label: "Literature/Theory" },
+  { value: "LTWL", label: "Literature/World" },
+  { value: "MAE", label: "Mechanical and Aerospace Engineering" },
+  { value: "MATS", label: "Materials Science" },
+  { value: "MBC", label: "Molecular Biology and Cell Biology" },
+  { value: "MBCB", label: "Biology/Molecular and Cell Biology" },
+  { value: "MBCM", label: "Biochemistry and Molecular Biology" },
+  { value: "MBCP", label: "Molecular Biology and Cancer" },
+  { value: "MBSB", label: "Biology/Structural Biology" },
+  { value: "MDE", label: "Medical Device Engineering" },
+  { value: "MGT", label: "Management" },
+  { value: "MGTB", label: "Business Management" },
+  { value: "MGTC", label: "Corporate Governance" },
+  { value: "MGTF", label: "Finance" },
+  { value: "MGTH", label: "Healthcare Management" },
+  { value: "MGTP", label: "Project Management" },
+  { value: "MGTX", label: "Executive Management" },
+  { value: "MGTY", label: "Management Strategy" },
+  { value: "MGTZ", label: "Specialized Management Topics" },
+  { value: "MIP", label: "Medical Imaging and Pathology" },
+  { value: "MSED", label: "Marine Science and Education" },
+  { value: "MUS", label: "Music" },
+  { value: "NANO", label: "Nanoengineering" },
+  { value: "NEU", label: "Neuroscience" },
+  { value: "NEUG", label: "Graduate Neuroscience" },
+  { value: "NEUP", label: "Neuroscience/Physiology" },
+  { value: "NEUR", label: "Neuroscience Research" },
+  { value: "OPTH", label: "Ophthalmology" },
+  { value: "ORTH", label: "Orthopedics" },
+  { value: "PATH", label: "Pathology" },
+  { value: "PEDS", label: "Pediatrics" },
+  { value: "PHAR", label: "Pharmacology" },
+  { value: "PHIL", label: "Philosophy" },
+  { value: "PHYS", label: "Physics" },
+  { value: "POLI", label: "Political Science" },
+  { value: "PSYC", label: "Psychology" },
+  { value: "PSYH", label: "Psychology/Human Behavior" },
+  { value: "PSYI", label: "Psychology/Industrial" },
+  { value: "PSYN", label: "Psychology/Neuroscience" },
+  { value: "PSYP", label: "Psychology/Physiology" },
+  { value: "PSYS", label: "Psychology/Statistics" },
+  { value: "PSYT", label: "Psychology/Theory" },
+  { value: "PSYW", label: "Psychology/Writing" },
+  { value: "RAD", label: "Radiology" },
+  { value: "RELI", label: "Religious Studies" },
+  { value: "REV", label: "Revolutionary Studies" },
+  { value: "RMAS", label: "Remote Sensing and Analysis" },
+  { value: "SOMI", label: "School of Medicine/Interdisciplinary" },
+  { value: "SOMM", label: "School of Medicine/Microbiology" },
+  { value: "SOMS", label: "School of Medicine/Surgery" },
+  { value: "SOMT", label: "School of Medicine/Topics" },
+  { value: "SOMU", label: "School of Medicine/Undergraduate" },
+  { value: "SOMV", label: "School of Medicine/Volunteer" },
+  { value: "SOMW", label: "School of Medicine/Workshops" },
+  { value: "SOMX", label: "School of Medicine/Experiments" },
+  { value: "SOMY", label: "School of Medicine/Yield" },
+  { value: "SOMZ", label: "School of Medicine/Zoom Courses" },
+  { value: "SOCI", label: "Sociology" },
+  { value: "SPPS", label: "School of Pharmacy and Pharmaceutical Sciences" },
+  { value: "SURG", label: "Surgery" },
+  { value: "SYN", label: "Synthesis" },
+  { value: "TDAC", label: "Theatre/Acting" },
+  { value: "TDDE", label: "Theatre/Design" },
+  { value: "TDGE", label: "Theatre/General Education" },
+  { value: "TDGR", label: "Theatre/Graduate" },
+  { value: "TDHD", label: "Theatre/History and Dramatic Literature" },
+  { value: "TDHT", label: "Theatre/Theory" },
+  { value: "TDPR", label: "Theatre/Production" },
+  { value: "TDPW", label: "Theatre/Playwriting" },
+  { value: "TDDR", label: "Theatre/Dramaturgy" },
+  { value: "TMC", label: "Thurgood Marshall College" },
+  { value: "TWS", label: "Third World Studies" },
+  { value: "USP", label: "Urban Studies and Planning" },
+  { value: "VIS", label: "Visual Arts" },
+  { value: "WARR", label: "Warren College" },
+  { value: "WCWP", label: "Warren College/Writing Program" }
+];
+
 
 export const subjectStyles = {
   control: (base, state) => ({
@@ -200,26 +217,26 @@ export const subjectStyles = {
     return {
       ...styles,
       backgroundColor: isDisabled
-        ? undefined
-        : isSelected
-          ? "#9333ea"
-          : isFocused
-            ? "#d8b4fe"
-            : undefined,
+          ? undefined
+          : isSelected
+              ? "#9333ea"
+              : isFocused
+                  ? "#d8b4fe"
+                  : undefined,
       color: isDisabled
-        ? '#ccc'
-        : isFocused
-          ? "#9333ea"
-          : "white",
+          ? '#ccc'
+          : isFocused
+              ? "#9333ea"
+              : "white",
       cursor: isDisabled ? 'not-allowed' : 'default',
 
       ':active': {
         ...styles[':active'],
         backgroundColor: !isDisabled
-          ? isSelected
-            ? "#9333ea"
-            : "#d8b4fe"
-          : undefined,
+            ? isSelected
+                ? "#9333ea"
+                : "#d8b4fe"
+            : undefined,
       }
     }
   },
@@ -263,7 +280,6 @@ export const subjectStyles = {
 
 }
 
-
 export const semesterStyles = {
   control: (base, state) => ({
     ...base,
@@ -288,26 +304,26 @@ export const semesterStyles = {
     return {
       ...styles,
       backgroundColor: isDisabled
-        ? undefined
-        : isSelected
-          ? "#9333ea"
-          : isFocused
-            ? "#d8b4fe"
-            : undefined,
+          ? undefined
+          : isSelected
+              ? "#9333ea"
+              : isFocused
+                  ? "#d8b4fe"
+                  : undefined,
       color: isDisabled
-        ? '#ccc'
-        : isFocused
-          ? "#9333ea"
-          : "white",
+          ? '#ccc'
+          : isFocused
+              ? "#9333ea"
+              : "white",
       cursor: isDisabled ? 'not-allowed' : 'default',
 
       ':active': {
         ...styles[':active'],
         backgroundColor: !isDisabled
-          ? isSelected
-            ? "#9333ea"
-            : "#d8b4fe"
-          : undefined,
+            ? isSelected
+                ? "#9333ea"
+                : "#d8b4fe"
+            : undefined,
       }
     }
   },
@@ -377,26 +393,26 @@ export const instructorStyles = {
     return {
       ...styles,
       backgroundColor: isDisabled
-        ? undefined
-        : isSelected
-          ? "#fff"
-          : isFocused
-            ? "#18181b"
-            : undefined,
+          ? undefined
+          : isSelected
+              ? "#fff"
+              : isFocused
+                  ? "#18181b"
+                  : undefined,
       color: isDisabled
-        ? '#ccc'
-        : isFocused
-          ? "#fff"
-          : "white",
+          ? '#ccc'
+          : isFocused
+              ? "#fff"
+              : "white",
       cursor: isDisabled ? 'not-allowed' : 'default',
 
       ':active': {
         ...styles[':active'],
         backgroundColor: !isDisabled
-          ? isSelected
-            ? "#fff"
-            : "#18181b"
-          : undefined,
+            ? isSelected
+                ? "#fff"
+                : "#18181b"
+            : undefined,
       }
     }
   },
@@ -448,4 +464,4 @@ export const graphColors = [
 
 export const labels = ['A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D', 'D-', 'F'];
 
-export const boilerExamsCourses = ["MA15800", "MA16010", "MA16100", "MA16200", "MA26100", "MA26200", "MA26500", "MA26600", "MA30300", "CS15900", "CS17700", "CS25100", "CHM11500", "ECON25200", "ECE20002", "PHYS17200"];
+export const boilerExamsCourses = [];

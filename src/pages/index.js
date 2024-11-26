@@ -137,7 +137,7 @@ const CourseCatalog = () => {
               onClick={() => setDisplayLanding(true)}
               className='text-2xl md:text-5xl font-semibold my-auto ml-2 select-none text-white cursor-pointer'
             >
-              BoilerClasses
+              UCSDClasses
             </h1>
           </div>
 
@@ -188,7 +188,7 @@ const CourseCatalog = () => {
           <div className="flex-col z-40 grid place-content-center mx-4 h-screen items-center">
             <div className='flex flex-row justify-around my-2 md:gap-4 md:my-4 lg:my-0 lg:mt-4 lg:mb-6'>
               <img src='/boilerclasses-FULL.png' onClick={() => setDisplayLanding(false)} className='my-auto w-10 h-10 mx-2 md:w-16 md:h-16 lg:w-20 lg:h-20 cursor-pointer' />
-              <h1 onClick={() => setDisplayLanding(false)} className='text-2xl md:text-6xl mr-2 font-semibold my-auto select-none text-white cursor-pointer'>BoilerClasses</h1>
+              <h1 onClick={() => setDisplayLanding(false)} className='text-2xl md:text-6xl mr-2 font-semibold my-auto select-none text-white cursor-pointer'>UCSDClasses</h1>
             </div>
             <input
               id="landingSearch"
